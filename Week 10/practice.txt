@@ -1,0 +1,10 @@
+PROMPT for number
+GET number
+
+WHILE num <= number:
+    nums.append(num)
+    sum += num
+    num += 1
+
+PRINT sum
+PRINT nums

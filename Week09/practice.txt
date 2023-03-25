@@ -1,0 +1,10 @@
+OPEN file
+READ item in file  
+    IF item in dictionary
+        dictionary[item]++
+    ELSE 
+        dictionary[item] <- 1
+
+PROMPT for word
+GET word
+PUT there were dictionary[word] instance of word
